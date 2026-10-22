@@ -1,0 +1,28 @@
+# Build artifacts
+build/
+obj_dir/
+sim_build/
+uvm/sim_build/
+uvm/results.xml
+
+# Simulation executables and waveforms
+*.vvp
+*.vcd
+*.lxt
+*.lxt2
+*.vpd
+*.fst
+
+# Logs and temporary files
+*.log
+*:Zone.Identifier
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
